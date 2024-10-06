@@ -2,7 +2,7 @@
 
 Esto es un desafio dado por Alkemy para Desarrollo FullStack con JavaScript
 
-Consta de una aplicacion web junto a una API, para administración de presupuesto personal
+Consta de una aplicacion web para administración de presupuesto personal, desarrollada junto a su propia API
 
 ## Funciones
 
