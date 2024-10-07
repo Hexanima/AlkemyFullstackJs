@@ -1156,11 +1156,20 @@ __metadata:
   dependencies:
     "@eslint/js": "npm:^9.11.1"
     "@types/express": "npm:^4"
+    app-domain: "workspace:^"
     dotenv: "npm:^16.4.5"
     eslint: "npm:^9.11.1"
     express: "npm:^4.21.0"
     typescript: "npm:^5.5.3"
     typescript-eslint: "npm:^8.7.0"
+  languageName: unknown
+  linkType: soft
+
+"app-domain@workspace:^, app-domain@workspace:packages/domain":
+  version: 0.0.0-use.local
+  resolution: "app-domain@workspace:packages/domain"
+  dependencies:
+    typescript: "npm:^5.6.2"
   languageName: unknown
   linkType: soft
 
@@ -1482,14 +1491,6 @@ __metadata:
   checksum: 10c0/bd7633942f57418f5a3b80d5cb53898127bcf53e24cdf5d5f4396be471417671f0fee48a4ebe9a1e9defbde2a31280011af58a57e090ff822f589b443ed4e643
   languageName: node
   linkType: hard
-
-"domain@workspace:^, domain@workspace:packages/domain":
-  version: 0.0.0-use.local
-  resolution: "domain@workspace:packages/domain"
-  dependencies:
-    typescript: "npm:^5.6.2"
-  languageName: unknown
-  linkType: soft
 
 "dotenv@npm:^16.4.5":
   version: 16.4.5
@@ -3581,7 +3582,7 @@ __metadata:
     "@types/react": "npm:^18.3.10"
     "@types/react-dom": "npm:^18.3.0"
     "@vitejs/plugin-react": "npm:^4.3.2"
-    domain: "workspace:^"
+    app-domain: "workspace:^"
     eslint: "npm:^9.11.1"
     eslint-plugin-react-hooks: "npm:^5.1.0-rc.0"
     eslint-plugin-react-refresh: "npm:^0.4.12"

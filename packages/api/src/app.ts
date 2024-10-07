@@ -1,6 +1,7 @@
 import express from "express";
 import dotenv from "dotenv";
 import { PORT } from "./constants";
+import {} from "app-domain"
 
 dotenv.config();
 
