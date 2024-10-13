@@ -1,10 +1,4 @@
-export interface User {
-  id: string;
-  name: string;
-  email: string;
-  password: string;
-}
+export * from "./entitites/movement";
+export * from "./entitites/user";
 
-export function isError(err: any) {
-  return err instanceof Error;
-}
+export * from "./utils/is-error";

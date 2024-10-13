@@ -1,8 +1,4 @@
-export interface User {
-    id: string;
-    name: string;
-    email: string;
-    password: string;
-}
-export declare function isError(err: any): err is Error;
+export * from "./entitites/movement";
+export * from "./entitites/user";
+export * from "./utils/is-error";
 //# sourceMappingURL=index.d.ts.map
